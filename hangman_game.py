@@ -6,7 +6,7 @@ from words import words
 
 result = words()
 
-word = random.choice(result)
+word = random.choice(result) #random package is used here to pick random words from the list
 
 allowed_errors = 6
 guesses = []
