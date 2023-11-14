@@ -12,8 +12,7 @@ while True:
     if user_input not in option:
         continue
 
-    random_number = random.randint(0,2)
-    computer_input = option[random_number]
+    computer_input= random.choice(option)
     print(f"computer picks {computer_input}!")
 
     if user_input == 'rock' and computer_input == 'scissor':
